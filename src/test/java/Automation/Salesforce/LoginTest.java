@@ -25,6 +25,7 @@ public class LoginTest extends BaseSalesforces{
 		hp.getPassword().sendKeys("1234");
 		hp.getLogin().click();	
 		System.out.println("Logged in successfully??");
+		System.out.println("Not there is a credential error, credential mismatch");
 	}
 	
 	@Test(priority=2)
