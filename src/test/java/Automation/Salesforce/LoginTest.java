@@ -27,6 +27,7 @@ public class LoginTest extends BaseSalesforces{
 		System.out.println("Logged in successfully??");
 		System.out.println("Not there is a credential error, credential mismatch");
 		System.out.println("Ok, I have resolved. Please check...!");
+		System.out.println("Ok now its working");
 	}
 	
 	@Test(priority=2)
