@@ -26,6 +26,7 @@ public class LoginTest extends BaseSalesforces{
 		hp.getLogin().click();	
 		System.out.println("Logged in successfully??");
 		System.out.println("Not there is a credential error, credential mismatch");
+		System.out.println("Ok, I have resolved. Please check...!");
 	}
 	
 	@Test(priority=2)
